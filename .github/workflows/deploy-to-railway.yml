@@ -1,0 +1,41 @@
+name: Deploy to Railway
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Git add, commit, and push
+        run: |
+          git config --global user.name "Your Name"
+          git config --global user.email "your.email@example.com"
+          git add .
+          git commit -m "Update from GitHub Actions"
+          git push origin master
+
+      - name: Deploy to Railway
+        run: |
+          npm install -g railway
+          railway up
+        env:
+          RAILWAY_API_TOKEN: ${{ secrets.RAILWAY_API_TOKEN }}
+
