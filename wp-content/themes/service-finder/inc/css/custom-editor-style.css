@@ -1,0 +1,10 @@
+html .mceContentBody {
+	unicode-bidi:embed;
+	margin:0;
+	padding:10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+

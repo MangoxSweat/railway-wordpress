@@ -1,0 +1,18 @@
+/*===========================
+	!! Redux RTL !!
+============================*/
+
+.redux-sidebar .hasSubSections .extraIconSubsections {
+	float:left !important;
+}
+
+.redux-main {
+	margin-right:0;
+}
+
+.redux-main .description {
+	word-break:break-all;
+}
+
+.action-dropdown.dropdown-left .dropdown-menu { right: auto; left: 35px; margin-right:0px; margin-left:10px;}
+.action-dropdown .dropdown-menu:after {  right:auto; left:-14px;	border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 7px solid transparent; border-right: 7px solid #fff; }

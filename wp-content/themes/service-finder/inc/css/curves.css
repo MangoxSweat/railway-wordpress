@@ -1,0 +1,93 @@
+
+
+/*====================
+
+	Home Page curve css
+
+=====================*/
+
+
+
+.sf-cateori-curveTop,
+
+.sf-cateori-curveBot,
+
+.sf-howitwork-curveTop,
+
+.sf-howitwork-curveBot,
+
+.sf-feaPro-curveTop,
+
+.sf-feaPro-curveBot,
+
+.sf-trustedBy-curveTop,
+
+.sf-trustedBy-curveBot,
+
+.sf-latestBlog-curveTop,
+
+.sf-latestBlog-curveBot,
+
+.sf-whyChoos-curveTop,
+
+.sf-whyChoos-curveBot,
+
+.sf-postJobs-curveTop,
+
+.sf-postJobs-curveBot,
+
+.sf-pricingtable-curveTop,
+
+.sf-pricingtable-curveBot,
+
+.sf-testimo-curveTop,
+
+.sf-testimo-curveBot,
+
+.sf-proFolos-curveTop,
+
+.sf-proFolos-curveBot { display:none;  }
+
+
+
+
+
+/*====================
+
+	Profile Page curve css
+
+=====================*/
+
+
+.sf-aboutInfo-curveBot, 
+
+.sf-vendGallery-curveBot, 
+
+.sf-venContInfo-curveBot, 
+
+.sf-vendBio-curveBot, 
+
+.sf-vendVideo-curveBot, 
+
+.sf-venderDoc-curveBot, 
+
+.sf-BookNow-curveBot, 
+
+.sf-vendRevArt-curveBot,
+
+
+.sf-aboutInfo-curveTop,
+
+.sf-vendGallery-curveTop, 
+
+.sf-venContInfo-curveTop, 
+
+.sf-vendBio-curveTop, 
+
+.sf-vendVideo-curveTop, 
+
+.sf-venderDoc-curveTop, 
+
+.sf-BookNow-curveTop, 
+
+.sf-vendRevArt-curveTop {  display:none; }

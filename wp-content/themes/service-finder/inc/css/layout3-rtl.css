@@ -1,0 +1,164 @@
+
+
+
+
+.job-comapny-info .position { float:right; padding-right:0px; padding-left:30px;}
+
+
+
+.job-comapny-info .location { float:right; }
+
+
+
+.job-comapny-info .meta { float:right; }
+
+
+
+.job-cost { float:right; }
+
+
+
+
+
+
+
+ul.timeslots li, 
+
+
+
+ul.protimelist li {  margin:0 0px 10px 10px; }
+
+
+
+
+
+
+
+.sf-rating-averages-wraps { float: left; }
+
+
+
+.sf-rating-categories-wraps { float: right; }
+
+
+
+.sf-rating-averages-cell:first-child { padding-left:20px; padding-right:0px; text-align:left; }
+
+
+
+.sf-rating-categories-cell:first-child { padding-right:0px; padding-left: 20px; }
+
+
+
+.sf-rating-categories-cell:last-child { text-align: left; }
+
+
+
+
+
+
+
+.sf-vender-review-tab-area ol.comment-list li.comment .comment-body { margin-left:0px;  margin-right: 100px; }
+
+
+
+.sf-vender-review-tab-area ol.comment-list li.comment .comment-author .avatar { left:auto; right:-100px; }
+
+
+
+ol.comment-list li.comment .comment-body::after { border-width: 12px 14px 12px 0; right: -14px; -webkit-transform: scaleX(-1); transform: scaleX(-1); }
+
+
+
+.sf-related-provider-bx .post-thum-bx { float:right; margin-right:0px; margin-left: 15px; }
+
+
+
+.sf-related-provider-bx .post-text-bx { margin-left:0px; margin-right: 90px; }
+
+
+
+
+
+
+
+.sf-featured-approve { left: 20px; right:auto; }
+
+
+
+.sf-feaProgrid-wrap .sf-feaProgrid-label { right: -5px; left:auto; border-top-right-radius:0px; -webkit-border-bottom-right-radius:0px; border-top-left-radius: 2px; -webkit-border-bottom-left-radius: 2px;}
+
+
+
+.sf-feaProgrid-wrap .sf-feaProgrid-label::after { right: 0px; left:auto; border-left: 5px solid #41850c; border-right:0px;  }
+
+
+
+
+
+
+
+@media only screen and (max-width:600px) {  
+
+
+
+.job-comapny-info .position { padding-right:20px; padding-left:0px; }
+
+
+
+.job-comapny-info .meta { margin: 0; }
+
+
+
+.job-comapny-info .position .company strong { margin-right:0px; margin-left: 10px; }
+
+
+
+.job-comapny-info .location { padding-right: 55px; }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:480px) {  
+
+
+
+.job-comapny-info { padding-left: 0; padding-right: 50px; }
+
+
+
+.job-comapny-info .job-cost { text-align: right; padding-left: 0; padding-right: 15px; }
+
+
+
+.job-comapny-info .meta { padding-right: 20px; margin-bottom: 15px; }
+
+
+
+}
+
+
+
+
+
+
+
+.sf-searchbar-table .sf-searchbar-right {padding-left: 30px; padding-right: 0px;}
+
+.sf-services-panel-listing li .sf-services-panel-price { left: 20px; right:auto; }
+
+
+
+.sf-feaProvideer-wrap .sf-featured-approve { right:auto; left:15px; }
+.sf-feaProvideer-wrap .sf-featured-approve  .fa { margin-left:5px; }

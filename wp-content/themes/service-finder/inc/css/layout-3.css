@@ -1,0 +1,1271 @@
+.sf-blog-page-area .page-wraper { background-color:#f7f8fa; }
+
+#sf-provider-services .nav-tabs {
+
+
+
+    margin-bottom:10px;
+
+
+
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+
+
+
+}
+
+.pricing-tables-name { padding-bottom:0px; }
+.pricing-tables-money { padding-top:10px; }
+.pricing-tables-money .sf-exp-period { padding-top:10px; display:block; }
+.pricing-tables-money .sf-billing-period {  position:relative; padding-left:10px; }
+.pricing-tables-money .sf-billing-period:before { content:"/"; position:absolute; left:0px; top:0px; font-size:15px; color:#555; }
+
+.wp-block-button .wp-block-button__link { border-radius:5px; -webkit-border-radius:5px; }
+.blog-post .post-date { border-radius:5px; -webkit-border-radius:5px; overflow: hidden; }
+.wp-block-cover, .wp-block-cover-image { -webkit-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; }
+img[class*="wp-image"], 
+.wp-block-image figure, 
+.wp-block-image figure > img { -webkit-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; }
+.searchform input[type="submit"] { border-width:0px; -webkit-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; }
+.searchform input[type="text"] { -webkit-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; }
+.wp-block-search .wp-block-search__input,
+.wp-block-search .wp-block-search__button {border-radius: 5px;	-webkit-border-radius: 5px; }
+
+.post-password-form input[type="password"],
+.post-password-form input[type="submit"] {border-radius: 5px;	-webkit-border-radius: 5px; }
+
+.pagination .page-numbers { background-color:transparent; border: 1px solid transparent; -webkit-border-radius:30px; border-radius:30px; padding:7px 14px; margin:0px 3px; }
+
+
+.btn,
+
+
+
+.btn-primary,
+
+
+
+.btn-danger,
+
+
+
+.btn-custom,
+
+
+
+
+
+
+
+.sf-user-login,
+
+
+
+
+
+
+
+.form-control,
+
+
+
+
+
+
+
+.sf-request-quote,
+
+
+
+
+
+
+
+.sf-noservice-available,
+
+
+
+
+
+
+
+.sf-form-control,
+
+
+
+
+
+
+
+.sf-form-control .dropdown-toggle,
+
+
+
+
+
+
+
+ol.comment-list li.comment .comment-body,
+
+
+
+
+
+
+
+.sf-search-grid-option li .btn,
+
+
+
+
+
+
+
+.sf-ques-ans-list  { border-radius:5px; -webkit-border-radius:5px; }
+
+
+
+
+
+
+
+.sf-ques-ans-list { overflow: hidden; }
+
+
+
+
+
+
+
+.btn-info,
+
+
+
+.btn-warning,
+
+
+
+.btn-primary,
+
+
+
+.btn-danger,
+
+
+
+.btn-custom { font-weight:600; text-transform:uppercase; }
+
+
+
+
+
+
+
+
+
+
+
+.sf-request-quote .form-control  { border-radius:5px !important; -webkit-border-radius:5px !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-primary,
+
+
+
+
+
+
+
+.btn-custom { text-transform:uppercase; font-weight:600; }
+
+
+
+
+
+
+
+.form-control { font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rating-container .rating-stars { color: #ebc307; }
+
+
+
+
+body {  font-size:16px;  }
+
+
+
+
+
+.sf-searchbar-left .filter-option img { width: 20px; height: 20px; margin-right: 5px; border-radius: 100%; -webkit-border-radius: 100%; }
+
+
+
+
+
+#comment-list .alert-warning a { color:#000; font-weight:bold; }
+
+
+
+ol.comment-list li.comment .comment-body { border:none; background-color:#696c6c; color:#fff; }
+
+ol.comment-list li.comment .comment-body::before { border-color: transparent #696c6c transparent #696c6c; }
+
+
+ol.comment-list li.comment .comment-body::after { border-color: transparent #696c6c transparent #696c6c; border-width: 12px 14px 12px 0; left: -14px; }
+
+
+
+ol.comment-list li.comment .comment-meta { color:#b4b6b6; text-transform: none; margin-bottom: 10px; padding:0px 15px; }
+
+
+ol.comment-list li.comment .comment-meta::before { content: "\f133"; vertical-align: baseline; font-size: 14px; }
+
+
+
+
+
+
+
+ol.comment-list li.comment .comment-meta a { color:#b4b6b6; }
+
+
+
+
+
+
+
+ol.comment-list li.comment .comment-author { padding:0px 15px; }
+
+
+
+
+
+
+
+ol.comment-list li.comment .comment-author .fn { color: #fff; font-size: 14px; }
+
+
+
+
+
+
+
+.sf-customer-display-rating {border-bottom: 1px solid #7d7f7f; margin: 0 15px 15px; padding: 15px 0px; }
+
+
+
+
+
+
+
+ol.comment-list li.comment p { margin: 0 15px 15px; line-height:24px; }
+
+
+
+
+
+
+
+ol.comment-list li.comment p:last-child { margin-bottom:0px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:480px) {  
+
+
+
+
+
+
+
+ol.comment-list li.comment .comment-body { padding: 15px 0px;}
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:991px) {  
+.extra-nav{ margin-bottom:0px; }
+.extra-nav .extra-cell { padding:10px;}
+}
+
+
+ol.comment-list .pixrating_title { color:#fff; padding: 0px 15px;}
+.sf-reviews-summary .sf-reviews-star-no { color:#fff;}
+.sf-customer-avgrage-rating .sf-customer-rating-row [class*="sf-customer-rating-"] { color: #fff; }
+
+.sf-stats-rating .sf-average-reviews { color: #fff; }
+
+
+
+
+
+
+
+.sf-stats-rating .sf-completed-tasks {  color: #CCCCCC; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sf-profile-layout-3 .aon-service-bx.selected .aon-service-name { position:relative; z-index:2; }
+
+
+
+
+
+
+
+.sf-profile-layout-3 .aon-service-bx.selected .aon-service-name h5 { color:#fff; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pricing-tables-wrap { border-radius:5px; -webkit-border-radius:5px; }
+
+
+
+
+
+
+
+.pricing-tables-top,
+
+
+
+
+
+
+
+.pricing-tables-midd,
+
+
+
+
+
+
+
+.pricing-tables-bottom { background-color:#fff; }
+
+
+
+
+
+
+
+.pricing-tables-midd ul { margin-bottom:0px;}
+
+
+
+
+
+
+
+.pricing-tables-midd { padding-bottom:30px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pricing-tables-wrap [class*="pricing-tables-"]:first-child { border-top-left-radius:5px; -webkit-border-top-left-radius:5px; border-top-right-radius:5px; -webkit-border-top-right-radius:5px; }
+
+
+
+
+
+
+
+.pricing-tables-wrap [class*="pricing-tables-"]:last-child { border-bottom-left-radius:5px; -webkit-border-bottom-left-radius:5px; border-bottom-right-radius:5px; -webkit-border-bottom-right-radius:5px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sf-pricing-highlight.pricing-tables-wrap { padding:5px; position:relative; margin-top:0px; }
+
+
+
+
+
+
+
+.sf-pricing-highlight.pricing-tables-wrap:after { content:""; position:absolute; bottom:0px; left:0px; width:50%; height:75%;  z-index:-1;  border-bottom-left-radius:5px; webkit-border-bottom-left-radius:5px; }
+
+
+
+
+
+
+
+.sf-pricing-highlight.pricing-tables-wrap:before { content:""; position:absolute; bottom:0px; right:0px; width:50%; height:25%;  z-index:-1; border-bottom-right-radius:5px; -webkit-border-bottom-right-radius:5px; }
+
+
+
+
+
+
+
+.sf-pricing-highlight.pricing-tables-wrap .pricing-tables-name { padding-bottom:5px; }
+
+
+
+
+
+
+
+.sf-pricing-highlight.pricing-tables-wrap [class*="pricing-tables-"]:last-child { margin-top:-2.5px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sf-pricing-highlight.pricing-tables-wrap:after,
+
+
+
+
+
+
+
+.sf-pricing-highlight.pricing-tables-wrap:before { -webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-ms-transition: all 0.5s ease;-o-transition: all 0.5s ease; transition: all 0.5s ease; }
+
+
+
+
+
+
+
+.sf-pricing-highlight.pricing-tables-wrap:hover:after { height:25%; }
+
+
+
+
+
+
+
+.sf-pricing-highlight.pricing-tables-wrap:hover:before { height:75%; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sf-find-bar .search-form:before, 
+
+
+
+
+
+
+
+.sf-find-bar-inr .search-form:before { border-radius:0px 5px 5px 5px; -webkit-border-radius:0px 5px 5px 5px; opacity:1; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sf-find-bar.pos-v-bottom { top: auto; bottom:-45px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.timeslots li,
+
+
+
+
+
+
+
+ul.protimelist li { padding: 10px 15px; margin: 0 10px 10px 0; background:#f3f6f8;; text-transform: uppercase; border: 1px solid #dde3e6; cursor: pointer;	border-radius:5px; -webkit-border-radius:5px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.booking-panel-wrap .sf-custom-accordion { margin:30px 0px 15px; }
+
+
+
+
+
+
+
+.booking-panel-wrap .sf-adminfee-outer { margin-top:0px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job_listing .meta li.job-type { font-weight:400; border-radius:5px; display:inline-block; -webkit-border-radius:5px; padding:5px 20px; }
+
+
+
+
+
+
+
+.job-comapny-info .position { width: 35%; }
+
+
+
+
+
+
+
+.job-comapny-info .location { width: 25%; }
+
+
+
+
+
+
+
+.job-comapny-info .meta {width: 20%; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job-cost { width:20%; float:left; text-align:center; font-weight:600; color:#62b815; font-size:16px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job-comapny-info .position .company strong { color:#6bbe20; margin-right:10px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.job_listings li.job_listing:nth-child( even ) { background-color:#f7f8fa; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.job_listings .load_more_jobs { display:table; margin:30px auto -20px; }
+
+
+
+
+
+
+
+div.job_listings .load_more_jobs,
+
+
+
+
+
+
+
+div.job_listings .load_more_jobs:hover { border:none !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.load_more_jobs strong { background:none; color:#6bbe20; border:2px solid #6bbe20 !important; border-radius:5px; -webkit-border-radius:5px; }
+
+
+
+
+
+
+
+.form-wizard.sf-profile-layout-3 { background:none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:991px) {  
+
+
+
+
+
+
+
+.job-comapny-info .position { width:60% !important; margin-bottom:30px;  }
+
+
+
+
+
+
+
+.job-comapny-info .location { width:40% !important; margin-bottom:30px;  }
+
+
+
+
+
+
+
+.job-comapny-info .meta,
+
+
+
+
+
+
+
+.job-comapny-info .job-cost { width: 50% !important;  }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:480px) {  
+
+
+
+
+
+
+
+.job-comapny-info .position,
+
+
+
+
+
+
+
+.job-comapny-info .location { width:100% !important;  margin-bottom:20px;   }
+
+
+
+
+
+
+
+.job-comapny-info .meta { width: 100% !important; margin-bottom:20px; }
+
+
+
+
+
+
+
+.job-comapny-info .job-cost { width: 100% !important;  text-align:left; padding-left:15px; }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination > li > a,
+
+
+
+
+
+
+
+.pagination > li > span { margin-right:10px;	border-radius:3px; -webkit-border-radius:3px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sf-select-box > .dropdown-toggle {  height: 42px;}
+
+
+
+
+
+
+
+.sf-form-control { height: 42px;}
+
+
+
+
+
+
+
+.sf-search-grid-option li .btn { padding: 10px 10px; border: 1px solid #ddd; }
+
+
+
+
+
+
+
+.sf-search-any-option li .btn-primary { padding: 10px 20px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-wraper { background:#fff;}
+
+
+
+
+
+
+
+.footer-fixed .page-content { position:relative; z-index:1; background-color:#fff; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sf-find-bar .search-form, 
+
+
+
+
+
+
+
+.sf-find-bar-inr .search-form {padding:0px;}
+
+
+
+
+
+
+
+.sf-searchbar-table .sf-searchbar-right .btn { width:100%; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*demo review css*/
+
+
+
+
+
+
+
+.comment-respond { padding:0px 75px 75px;  border: 1px solid #8a8888; border-radius:5px; -webkit-border-radius:5px; }
+
+
+
+
+
+
+
+.comment-respond .comment-reply-title { color:#fff; }
+
+
+
+
+
+
+
+.comments-area .comment-form .logged-in-as a { color: #fff; }
+
+
+
+
+
+
+
+.comments-area .comment-form #add_comment_rating_wrap label { color: #fff; }
+
+
+
+
+
+
+
+.comments-area .comment-form .logged-in-as a:last-child { color: #ccc; font-weight:600; }
+
+
+
+
+
+
+
+.comments-area .comment-form #add_comment_rating_wrap #add_post_rating { color: #ccc; }
+
+
+
+
+
+
+
+.comments-area .comment-form p input[type="submit"] { background-color: #72c529; border:none; border-radius:5px; -webkit-border-radius:5px;  }
+
+
+
+
+
+
+
+.comments-area .comment-form p input[type="submit"]:hover,
+
+
+
+
+
+
+
+.comments-area .comment-form p input[type="submit"]:active,
+
+
+
+
+
+
+
+.comments-area .comment-form p input[type="submit"]:focus { background-color: #5da221;  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments-area .comment-form p input[type="text"], 
+
+
+
+
+
+
+
+.comments-area .comment-form p textarea { border:none; border-radius:5px; -webkit-border-radius:5px; }
+
+
+
+
+
+
+
+.comments-area .comment-form p.review-title-form { max-width: 720px; }
+
+
+
+
+
+
+
+.comments-area p:before { background:none; border:none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:480px) {  
+
+
+
+
+
+
+
+.comment-respond { padding: 0px 15px 15px; }
+
+
+
+
+
+
+
+}
+
+
+
+.rwmb-input.ui-sortable .show-embed { line-height:14px; }
+
+
+
+.form-wizard.sf-profile-layout-3 #bookingproviderlocation + .col-md-6 { padding:0px; }
